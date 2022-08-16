@@ -1,7 +1,39 @@
 /* Utilities */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
- 
+
 * {
     margin: 0;
     padding: 0;
 }
+/* First Content */
+.first-container {
+    background: #1f2937;
+}
+/* Navigation */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+/* Akhir Navigation */
+/* Header */
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+.imageheader {
+    width: 650px;
+    height: 450px;
+}
+/* Akhir Header */
+/* Akhir First Content */
+
+/* Product section */
+.product-container {
+    display: flex;
+}
+.vegimg {
+    width: 120px;
+    height: 120px;
+}
+/* Akhir product section */
+/* Testimony section */
