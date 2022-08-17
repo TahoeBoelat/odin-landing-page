@@ -160,3 +160,100 @@
     text-align: center;
 }
 /* Akhir Footer Section */
+
+/* Mobile Design */
+@media only screen and (min-width: 320px) and (max-width: 950px) {
+    /* Mobile Utils Section */
+    .nav-container, .header-container, .veg-container, .testimony-container, .signup-container, .footer-container {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    /* Akhir Mobile Utils Section */
+    /* Mobile Navigation Section */
+    .nav-container {
+        align-items: center;
+    }
+    .menu-container {
+        text-align: center;
+    }
+    /* Akhir Mobile Navigation Section */
+    /* Mobile Header Section*/
+    .header-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+    .title-section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .jargon-paragraph {
+        margin-top: 12px;
+        padding-left: 18px;
+        padding-right: 18px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .signup-btn {
+        font-size: 14px;
+        padding: 18px;
+    }
+    .imageheader {
+        margin-top: 12px;
+        width: 180px;
+        height: 120px;
+    }
+    /* Akhir Mobile Header */
+    /* Product Mobile */
+    .second-title {
+        font-size: 24px;
+    }
+    .product-card {
+        gap: 15px;
+        margin-top: 12px;
+    }
+    .vegimg {
+        width: 140px;
+        height: 140px;
+    }
+    .desc-product {
+        font-size: 18px;
+    }
+    /* Akhir Product Mobile Section */
+    /* Testimony Mobile Section */
+    .testimony-container {
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+    .testimony-title {
+        font-size: 18px;
+    }
+    .testimony-owner {
+        font-size: 14px;
+    }
+    /* Akhir Testimony Mobile Section */
+    /* Buttom Sign Up Section */
+    .signup-container {
+        padding: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .invitation-container {
+       text-align: center;
+    }
+    .invitation-item {
+        font-size: 14px;
+    }
+    /* Akhir Buttom Sign Up Section */
+    /* Footer */
+    .footer-container {
+        padding: 30px;
+    }
+}
